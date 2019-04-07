@@ -1,0 +1,13 @@
+{
+  "name": "koa-benchmark",
+  "version": "1.0.0",
+  "description": "Node JS using Koa",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  }
+}

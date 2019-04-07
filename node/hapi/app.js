@@ -56,9 +56,7 @@ app.route({
 
 const start = async function() {
   try {
-    app.start().then(function() {
-      // success
-    });
+    await app.start()
   } catch (err) {
     console.log(err);
     process.exit(1);
