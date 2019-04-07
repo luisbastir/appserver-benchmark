@@ -1,0 +1,12 @@
+{
+  "name": "express-benchmark",
+  "version": "1.0.0",
+  "description": "Node JS using Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
