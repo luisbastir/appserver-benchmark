@@ -1,10 +1,9 @@
-var http = require('http');
-var express = require('express');
-var app = express();
+var fastify = require('fastify');
+var app = fastify();
 
 // Simple JSON test
 app.get('/helloworld', function(req, res) {
-  res.json({
+  res.send({
     message: 'Hello World!'
   });
 });
@@ -19,7 +18,7 @@ app.get('/list', function(req, res) {
     };
     list.push(item);
   }
-  res.json(list);
+  res.send(list);
 });
 
 // Simple Fibonacci List
@@ -35,7 +34,7 @@ app.get('/fibonacci', function(req, res) {
   for (var x = 0; x < 100; x++) {
     list.push(fibonacci(x));
   }
-  res.json(list);
+  res.send(list);
 });
 
-http.createServer(app).listen(3000);
+app.listen(3000, '0.0.0.0', function() {});

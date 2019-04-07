@@ -14,7 +14,7 @@ router.get('/helloworld', function(ctx, next) {
 // Simple list with string interpolation
 router.get('/list', function(ctx, next) {
   var list = [];
-  for (var x = 0; x < 100; x++) {
+  for (var x = 0; x < 500; x++) {
     var item = {
       index: x,
       message: 'Item ' + (x + 1) + ' with index ' + x
