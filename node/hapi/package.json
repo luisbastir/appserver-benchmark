@@ -1,0 +1,12 @@
+{
+  "name": "hapi-benchmark",
+  "version": "1.0.0",
+  "description": "Node JS using Hapi",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
