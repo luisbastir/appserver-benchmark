@@ -1,6 +1,6 @@
 # Server Description
 
-* __Framework (Middleware):__ Node JS with Koa JS
+* __Framework (Middleware):__ Node JS with Restify JS
 * __Language:__ JavaScript
 
 ## Build Script
